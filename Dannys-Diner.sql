@@ -1,9 +1,5 @@
 USE dannys_diner;
 
-SELECT * FROM sales;
-SELECT * FROM members;
-SELECT * FROM menu;
-
 CREATE TABLE finalTable AS
 SELECT s.*, m.join_date, e.product_name, e.price
 FROM sales s 
